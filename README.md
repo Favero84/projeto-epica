@@ -1,4 +1,4 @@
-# projeto-epica
+# Projeto Epica
 ## Site desenvolvido com o objetivo de adquirir conhecimentos em HTML e CSS de forma responsivo, com um visual super moderno e atraente.
 
 ### Fotos do site:
