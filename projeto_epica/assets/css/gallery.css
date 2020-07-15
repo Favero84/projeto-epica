@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.topo1 {
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    height: 130px;
+    background-image: url("../images/bg-top.jpg");
+}
+.logo {
+    background-position: 50% 35px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-image: url("../images/logo.png");
+}
+label {
+    display: none;
+    color: #FFF;
+    font-size: 32px;
+    float: right;
+    margin-right: 20px;
+}
+#toggle {
+    display: none;
+}
+.menu {
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    height: 55px;
+    background-image: url("../images/menu-bg.jpg");
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    float: left;
+    height: 55px;
+    line-height: 55px;
+    padding-left: 40px;
+    padding-right: 35px;
+    color: #FFFFFF;
+    font-size: 19px;
+}
+.conteudogellery1 {
+    margin: auto;
+    width: 100%;
+    max-width: 980px;
+    height: 460px;
+    background-color: #000;
+}
+.titulogallery {
+    color: #00cccc;
+    font-size: 24px;
+    margin-top: 40px;
+    padding-left: 40px;
+}
+.imagegallery {
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 37px;
+    height: auto;
+}
+.conteudogallery2 {
+    display: flex;
+    width: 100%;
+    max-width: 980px;
+    height: 375px;
+    background-color: #000;
+    margin: auto;
+}
+.gradeimage1 {
+    flex: 1;
+    padding-left: 60px;
+}
+.image1 {
+    height: 150px;
+}
+.image2 {
+    margin-top: 20px;
+    height: 150px;
+}
+.gradeimage2 {
+    flex: 1;
+}
+.image1grade2 {
+    height: 150px;
+}
+.image2grade2 {
+    margin-top: 20px;
+    height: 150px;
+}
+.gradeimage3 {
+    flex: 1;
+}
+.image1grade3 {
+    height: 150px;
+}
+.image2grade3 {
+    margin-top: 20px;
+    height: 150px;
+}
+.rodape {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    background-image: url("../images/footer.jpg");
+}
+.rodapeimage {
+    flex: 1;
+    height: 80px;
+    background-position: 85% 30px;
+    background-repeat: no-repeat;
+    background-image: url("../images/list-services.png");
+}
+
+@media only screen and (min-width:835px) and (max-width:988px) {
+    
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .menu {
+        display: none;
+        background-image: url("../images/menu-bg-tail.jpg");
+        height: 240px;
+    }
+    .menu li {
+        width: 100%;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #222;
+        border-top: 1px solid #222;
+    }
+    .menu li:hover {
+        color: #000;
+        font-weight: bold;
+        background-color: #82B7D3;
+    }
+    .conteudogallery2 {
+        margin-top: auto;
+    }
+    .imagegallery img {
+        width: 89%;
+        height: 350px;
+        margin: auto;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:835px) {
+    
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    .menu {
+        display: none;
+        background-image: url("../images/menu-bg-tail.jpg");
+        height: 240px;
+    }
+    .menu li {
+        width: 100%;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #222;
+        border-top: 1px solid #222;
+    }
+    .menu li:hover {
+        color: #000;
+        font-weight: bold;
+        background-color: #82B7D3;
+    }
+    .conteudogallery2 {
+        margin-top: auto;
+    }
+    .imagegallery {
+        display: none;
+    }
+    .conteudogallery2 {
+        display: block;
+        height: 2100px;
+        margin-top: -400px;
+    }
+    .image1 img {
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        padding-right: 50px;
+    }
+    .image2 img {
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        padding-right: 50px;
+        margin-top: 200px;
+    }
+    .image1grade2 img {
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-top: 200px;
+    }
+    .image2grade2 img {
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-top: 200px;
+    }
+    .image1grade3 img {
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-top: 200px;
+    }
+    .image2grade3 img {
+        width: 100%;
+        height: 300px;
+        margin: auto;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-top: 200px;
+    }
+}
